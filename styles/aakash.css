@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap');
 
 :root {
-  --customColor: #0044ff;
+  --customColor: #03ffc7;
   --purple: #ce00ff;
   --blue: #0044ff;
   --orange: #ff4600;
   --cyan: #03ffc7;
-  --light: #33b3e6;
+  
 }
 
 
@@ -460,9 +460,9 @@ li {
 }
 
 .left img {
-  height: 40rem;
-  width: 100%;
-  object-fit: cover;
+  border-radius: 200px;
+  width:300px ;
+  height:300px;
 }
 
 .right h1 {
