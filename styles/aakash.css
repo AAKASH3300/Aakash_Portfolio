@@ -8,8 +8,6 @@
   --cyan: #03ffc7;
   
 }
-
-
 *,
 *::before,
 *::after {
@@ -215,7 +213,7 @@ li {
   }
 }
 
-/* Hero */
+/* Head */
 .hero {
   position: absolute;
   top: 50%;
@@ -667,69 +665,7 @@ a.btn:active,
   border-color: #fff;
 }
 
-/* Blog */
 
-.blog-center {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 0 2rem;
-}
-
-.blog-box {
-  width: 100%;
-  box-shadow: 0 0 3px rgba(60, 72, 88, .8);
-}
-
-.image-container {
-  height: 25rem;
-}
-
-
-.image-container img {
-  object-fit: cover;
-  height: 25rem;
-}
-
-
-
-.blog-box .content {
-  padding: 2rem 1rem;
-}
-
-.blog-box .content h4 {
-  font-weight: 500;
-  font-size: 1.7rem;
-  margin-bottom: 1rem;
-}
-
-.blog-box .content p {
-  color: #222;
-  margin-bottom: 1rem;
-}
-
-.blog-box a:link,
-.blog-box a:visited {
-  display: inline-block;
-  padding: .7rem 0;
-  color: var(--customColor);
-  border-bottom: 2px solid var(--customColor);
-}
-
-@media only screen and (max-width: 768px) {
-  .blog-center {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 2rem;
-  }
-}
-
-
-@media only screen and (max-width: 567px) {
-  .blog-center {
-    grid-template-columns: 1fr;
-    gap: 4rem 0;
-  }
-  
-}
 
 /* Contact */
 
