@@ -460,9 +460,9 @@ li {
 }
 
 .left img {
-  border-radius: 200px;
-  width:300px ;
-  height:300px;
+  border-radius: 250px;
+  width:400px ;
+  height:400px;
 }
 
 .right h1 {
@@ -544,6 +544,21 @@ a.btn:active,
 .theme {
   background-color: #000;
 }
+.skill-set li
+{
+	background:rgba(250, 165, 61, 0.75);
+	border-radius:5px;
+	color:#FFF;
+	display:inline-block;
+	list-style:none;
+	margin:15px 15px 0 0;
+	padding:10px;
+	text-align:justify;
+}
+/* .skill-set li:hover
+{
+	background:#34db4d;
+} */
 
 .theme .title {
   color: #fff;
@@ -601,7 +616,7 @@ a.btn:active,
   }
 }
 
-/* Teams */
+/* projetcs */
 
 .team {
   color: #fff;
@@ -645,6 +660,7 @@ a.btn:active,
 .team:hover {
   border-bottom: 4px solid #fff;
   background-color: var(--customColor);
+  color: #000;
 }
 
 .team:hover .img-cover {
